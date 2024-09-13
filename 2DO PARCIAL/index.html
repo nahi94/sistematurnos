@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src= "clinica.js"></script>
+    <link rel="stylesheet" href="clinica.css">
+    <title>Clinica</title>
+</head>
+<body>
+    <Form>
+        <section class="formularioturno">
+        <h4>DATOS DEL PACIENTE</h4>
+            <input class ="controls" type = "text" name="nombreP" id = "nombreP" placeholder="Ingrese el nombre del Paciente">
+            <input class ="controls" type = "text" name="apellidoP" id = "apellidoP" placeholder="Ingrese el apellido del Paciente">
+            <input class ="controls" type = "text" name="dni" placeholder="Número de Documento" id = "dni">
+            <input class ="controls" type = "text" name="obrasocial" placeholder="Obra Social" id = "obrasocial">
+            <label for="">Fecha de Nacimiento</label>
+            <input class ="controls" type = "date" id="fechanacimiento" placeholder="Fecha de Nacimiento" min="1930-01-01" max="2022-12-31">
+            <label for="">Turno</label>
+            <input class ="controls" type = "date" id ="Turno" placeholder="Seleccione el Turno">
+            <h1 id="edad"></h1>
+
+            <header>
+        <div class="hero">
+            <div class="nav">
+                <div class="navar">
+                    <a href="#">ESPECIALIDAD</a>
+                    <select name="ESPECIALIDAD" id="ESPECIALIDAD">
+                        <optgroup label="ESPECIALIDAD">
+                            <option value="Seleccionar...">Seleccionar...</option>
+                            <option value="Pino, Cecilia Ayelen- GINECOLOGÍA"> Pino, Cecilia Ayelen-GINECOLOGÍA</option>
+                            <option value="Opazo, Oscar Daniel-PEDIATRIA">Opazo, Oscar Daniel-PEDIATRIA</option>
+                            <option value="Donatto, Gian Pier-CLINICO">Donatto, Gian Pier-CLINICO</option>
+                            <option value="Tejeda,Manuel Alberto-OBSTETRICIA">Tejeda,Manuel Alberto-OBSTETRICIA</option>
+                        </optgroup>
+                        <option value="ESPECIALIDAD"></option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div> 
+            <form>
+                <button type="button" onclick="Confirmar()">Confirmar</button>
+            <form>
+
+        <div>
+    <form>
+</body>
+</body>
+</html>
